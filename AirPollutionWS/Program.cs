@@ -22,7 +22,7 @@ namespace AirPollutionWS
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {
-                new AirPollutionService()
+                new AirPollutionService1()
             };
             ServiceBase.Run(ServicesToRun);
 #endif

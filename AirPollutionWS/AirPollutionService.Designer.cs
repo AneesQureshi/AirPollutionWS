@@ -1,6 +1,6 @@
 ﻿namespace AirPollutionWS
 {
-    partial class AirPollutionService
+    partial class AirPollutionService1
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,8 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            // 
+            // AirPollutionService1
+            // 
             this.ServiceName = "Service1";
+
         }
 
         #endregion
