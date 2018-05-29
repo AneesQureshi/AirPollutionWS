@@ -3,6 +3,7 @@
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data;
 using System.Globalization;
 using System.IO;
@@ -104,7 +105,9 @@ namespace DbLayer1
 
 
                 //bifurcating the service here by calling different procs and getting different city names
-                cmd = new MySqlCommand("sp_fetchCityService1", conn);
+                string FetchCityProc = ConfigurationManager.AppSettings["FetchCityProc"];
+
+                cmd = new MySqlCommand(FetchCityProc, conn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 MySqlDataReader sdr = cmd.ExecuteReader();
 
