@@ -104,7 +104,7 @@ namespace DbLayer1
 
 
                 //bifurcating the service here by calling different procs and getting different city names
-                cmd = new MySqlCommand("sp_fetchCityService1", conn);
+                cmd = new MySqlCommand("sp_fetchCityService2", conn);
                 cmd.CommandType = CommandType.StoredProcedure;
                 MySqlDataReader sdr = cmd.ExecuteReader();
 
