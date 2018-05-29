@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace AirPollutionWS
 {
-    public partial class AirPollutionService : ServiceBase
+    public partial class AirPollutionService1 : ServiceBase
     {
-        public AirPollutionService()
+        public AirPollutionService1()
         {
             InitializeComponent();
         }
