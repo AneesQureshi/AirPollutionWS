@@ -20,5 +20,10 @@ namespace AirPollutionWS
         {
 
         }
+
+        private void serviceInstaller1_AfterInstall(object sender, InstallEventArgs e)
+        {
+
+        }
     }
 }
