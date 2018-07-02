@@ -56,7 +56,6 @@ namespace AirPollutionWS
                         string state = cityRecord.state;
                         string country = cityRecord.country;
 
-
                         ////for debugger point
                         //string str = "";
 
